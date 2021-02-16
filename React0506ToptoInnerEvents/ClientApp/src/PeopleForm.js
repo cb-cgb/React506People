@@ -12,8 +12,7 @@ class PeopleForm extends React.Component
         const { onFirstNameChange, onLastNameChange, onAgeChange,onAddClick,  onClearClick } = this.props;
 
         return (  
-          <div className="container">
-            <div className="row" style={{ textAlign:"center"  }}>
+             <div className="row jumbotron" style={{ textAlign:"center"  }}>
                 <div className="col-md-3">
                     <input
                             value={firstName}
@@ -45,17 +44,17 @@ class PeopleForm extends React.Component
                             />
                        </div>
 
-                <div className="col-md-3"> 
+                      <div className="col-md-3"> 
                         <button className="btn btn-primary" onClick={onAddClick}>Add person </button>
-                </div>
-                </div>
+                       </div>                    
 
-                <div className="row" style={{ marginTop: 30 }}>
-                    <div className="col-md-3">
+                    <div className="col-md-3 offset-md-9" >
                         <button className="btn btn-danger" onClick={onClearClick}>Clear Table</button>
                     </div>
-                </div>
-             </div>
+                
+
+          </div>   
+          
             )
     }
 }
