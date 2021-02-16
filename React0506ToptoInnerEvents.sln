@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React0506ToptoInnerEvents", "React0506ToptoInnerEvents\React0506ToptoInnerEvents.csproj", "{C53F21C9-3775-4399-B866-9BA015E39481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53F21C9-3775-4399-B866-9BA015E39481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53F21C9-3775-4399-B866-9BA015E39481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53F21C9-3775-4399-B866-9BA015E39481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53F21C9-3775-4399-B866-9BA015E39481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C42ECA-0DCA-4557-BE21-1235B16D88D0}
+	EndGlobalSection
+EndGlobal
